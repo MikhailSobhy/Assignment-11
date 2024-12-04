@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #24353F;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.login, .sign-up{
+    width: 60%;
+    margin: 48px 80px;
+    padding: 48px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 1) 0px 2px 16px 0px;
+}
+.alert3{
+    margin-bottom: 10px;
+    color: green;
+}
+.login span, .sign-up .alert, .sign-up .alert2{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.login h1, .sign-up h1{
+    color: #17A2B8;
+}
+input{
+    margin: 16px;
+    padding: 6px 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    background-color: transparent !important;
+    color: white !important;
+}
+input::placeholder{
+    color: white !important;
+}
+.login-btn, .sign-up-btn{
+    width: 100%;
+    margin: 6px 16px;
+    padding: 6px 12px;
+    background-color: transparent;
+    border: 1px solid #17A2B8;
+    border-radius: 5px;
+    color: #17A2B8;
+}
+.login-btn:hover, .sign-up-btn:hover{
+    background-color: #17A2B8;
+    color: white;
+}
+.login p, .sign-up p{
+    margin: 16px;
+}
+.login p button, .sign-up p button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.login p button:hover, .sign-up p button:hover{
+    text-decoration: underline;
+}
+
+.container-two{
+    width: 70%;
+    margin: auto;
+}
+.header{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.header a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.header button{
+    border: 1px solid #FFC107;
+    background-color: transparent;
+    padding: 8px 12px;
+    color: white;
+}
+.header button:hover{
+    background-color: #FFC107;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    margin: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #17A2B8;
+}
